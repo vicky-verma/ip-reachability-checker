@@ -19,6 +19,8 @@ Attackers use reachability checks during reconnaissance to identify live hosts b
 
 ## My Learning Experience
 
-While building this project, I understood how attackers first check whether a host is alive before performing deeper scans. Initially, I was confused when some IPs showed as unreachable, but later I learned that ICMP can be blocked by firewalls and unreachable does not always mean the host is down.
+## My Learning Experience
 
-Working on this project helped me gain confidence in using Python with system commands on Kali Linux. I also learned how small reconnaissance scripts form the base of larger network scanning tools.
+While working on this project, I learned that attackers first check whether a system is alive before doing further scanning. At first, I was confused when some IP addresses showed as unreachable, but later I understood that firewalls can block ICMP requests, so unreachable does not always mean the system is down.
+
+This project helped me become more comfortable using Python with system commands on Kali Linux. I also realized that small scripts like this are the foundation of bigger network scanning and security tools.
